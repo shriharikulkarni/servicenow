@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="201331" started-at="2022-05-19T13:04:50 IST" finished-at="2022-05-19T13:08:11 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="201331" started-at="2022-05-19T13:04:50 IST" finished-at="2022-05-19T13:08:11 IST">
+      <class name="com.sn.Testcases.ProblemcreateTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.sn.Testcases.ProblemcreateTest@72d1ad2e]" name="setup" is-config="true" duration-ms="121505" started-at="2022-05-19T13:05:09 IST" finished-at="2022-05-19T13:07:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="problemcreate(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.sn.Testcases.ProblemcreateTest@72d1ad2e]" name="problemcreate" duration-ms="45045" started-at="2022-05-19T13:07:10 IST" data-provider="getTestData01" finished-at="2022-05-19T13:07:56 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Abel tuter]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Data not created in database]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[facing issue in database error]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- problemcreate -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.sn.Testcases.ProblemcreateTest@72d1ad2e]" name="teardown" is-config="true" duration-ms="15365" started-at="2022-05-19T13:07:56 IST" finished-at="2022-05-19T13:08:11 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=problemcreate status=SUCCESS method=ProblemcreateTest.problemcreate(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.sn.Testcases.ProblemcreateTest@72d1ad2e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.sn.Testcases.ProblemcreateTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

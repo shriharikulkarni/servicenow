@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [DemoSuite]">
+  <listeners>
+    <listener class-name="com.sn.Reports.ExtentReportNG"/>
+  </listeners>
+  <test thread-count="5" name="DemoTest(failed)">
+    <classes>
+      <class name="com.sn.Testcases.ProblemcreateTest">
+        <methods>
+          <include name="problemcreate" invocation-numbers="0"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.sn.Testcases.ProblemcreateTest -->
+    </classes>
+  </test> <!-- DemoTest(failed) -->
+</suite> <!-- Failed suite [DemoSuite] -->

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Suitecheck]" guice-stage="DEVELOPMENT">
+  <test thread-count="1" name="Testcheck(failed)">
+    <classes>
+      <class name="com.sn.Testcases.HomePageTest">
+        <methods>
+          <include name="SearchIncident"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.sn.Testcases.HomePageTest -->
+      <class name="com.sn.Testcases.LoginTest">
+        <methods>
+          <include name="verifyLoginPage"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.sn.Testcases.LoginTest -->
+    </classes>
+  </test> <!-- Testcheck(failed) -->
+</suite> <!-- Failed suite [Suitecheck] -->
